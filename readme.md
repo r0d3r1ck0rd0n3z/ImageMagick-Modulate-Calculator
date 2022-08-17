@@ -17,7 +17,7 @@ Modulate is an ImageMagick command that can shift the hue of a given color by th
   B = new color, as shifted from A by 𝒏 percent
 </p>
 
-<br />
+![colorwheel](colorwheel-example.png)
 
 <p>
 ImageMagick takes the base color and assigns it a value of 100%. It then works out the % values of the other colors :  
