@@ -9,19 +9,26 @@ https://r0d3r1ck0rd0n3z.github.io/ImageMagick-Modulate-Calculator/
 
 <br/>
 
-<p>Modulate is an ImageMagick command that shifts the hue of a given color by the provided percentage. More info <a target='_blank' href='https://legacy.imagemagick.org/Usage/color_mods/#modulate_hue'>here</a>. To understand how 'hue shift' works, imagine a colorwheel where:</p>
+<p>
+Modulate is an ImageMagick command that can shift the hue of a given color by the provided percentage. <a target='_blank' href='https://legacy.imagemagick.org/Usage/color_mods/#modulate_hue'>More info here</a>. To understand how 'hue shift' works, imagine a colorwheel where:</p>
+
 <p>
   A = original color, used as a base for the computations<br/>
   B = new color, as shifted from A by 𝒏 percent
-</p><br />
+</p>
+
+<br />
 
 <p>
 ImageMagick takes the base color and assigns it a value of 100%. It then works out the % values of the other colors :  
   <ul>
   <li>The opposite color on the wheel is assigned 0%.</li>
-  <li>Starting from 0% moving clockwise, it adds 1% for each color until it reaches 100%.</li>
-  <li>Starting from 100% moving clockwise, it adds 1% for each color until it reaches 200%.</li>
+  <li>Starting from this 0% value, it moves clockwise along the colorwheel perimeter adding 1% for each color until it reaches 200%.</li>
+  <li>By this point, it has already circled back to 0%. Logically, this means that colors bearing the 0% and 200% values are the same.</li>
 </ul>
+
+<p>
+  Now, when a user provides a percentage, ImageMagick simply returns the color associated with that % value. 
 </p>
 
 <br/>
