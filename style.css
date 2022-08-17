@@ -1,0 +1,108 @@
+body {
+  padding: 10px;
+  position: relative;
+}
+
+#result {
+  font-family: monospace;
+  line-height: 20px;
+  height: 100px;
+}
+
+#result > span {
+  display: inline-block;
+  width:20px;
+  margin-right: 10px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+input[type=text], input[type=number] {
+  width: 175px;
+}
+
+#inputHSL {
+  width: 275px;
+}
+
+input {
+  padding: 5px;
+  margin: 10px auto 10px auto;
+}
+
+#wheelContainer {
+  position: relative;
+}
+
+#colorwheel {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: 0;  
+  border-radius: 200px;
+  background-color: white; /* For browsers that do not support gradients */
+  background-image: conic-gradient(red, yellow, lime, aqua, blue, magenta, red);
+}
+
+#gridInside, #targetHue, #whiteborder {
+  height: 190px;
+  width: 190px;
+  border-radius: 200px;
+  border: solid 6px #000;
+  overflow:hidden;
+  text-align: center;
+  position: absolute;
+  top: 0;  
+  transition-duration: 0.8s;
+  transition-property: transform;
+}
+
+.verticalLine {
+  height: 140px;
+  width:  1px;
+  border-left: solid 5px #000;
+  display:inline-block;
+  position: absolute;
+  bottom: 0px;
+  left:  92px;
+}
+
+.circleTop {
+  border: solid 5px #000;
+  display:inline-block;
+  height: 60px;
+  width:  30px;
+  border-radius: 200px;
+  position: absolute;
+  top: -15px;
+  left: 75px;
+  line-height: 18px;
+}
+
+#bigSpace {
+  height: 250px;
+  width: 30px;
+  border: none;
+}
+
+.smalltext {
+  font-size: 8px;
+  font-weight: bold;
+}
+
+div.circTxt {
+  display: inline-block;
+  font-size: 7px;
+  position: absolute;
+  top: -2px;
+  left: 95px;
+}
+
+#whiteborder {
+    border: solid 20px white;
+    position: absolute;
+    left: 6px;
+    top: 6px;
+    width: 150px;
+    height: 150px;
+}

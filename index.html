@@ -1,0 +1,78 @@
+<html>
+<link rel="stylesheet" href="style.css">
+<head>
+</head>
+<body>
+
+<div id="firstcontainer">
+
+<p>🅰</p>
+Base color in <tt>hsl(h,s%,l%)</tt> format:
+<span style="color:red;">*</span>
+<br />
+<input type=text id=inputHSL value='hsl(188, 50%, 60%)' />
+<br />
+<p>🅱</p>
+<p>Type a value, then press compute.</p>
+1️⃣ Shift base color by this percentage:
+<br />└
+<input type=number id=inputPerc min=0 max=200 value=100 />
+<input type=button value=Compute id=generateButton />
+<br />
+2️⃣ or a target hue in <tt>hsl(h,s%,l%)</tt> format:
+<br />└
+<input type=text id=inputTarg value='hsl(188, 50%, 60%)' />
+<input type=button value=Compute id=getTargButton />
+<br /><br />
+<p>----------------------------------------------------------</p>
+<br />
+<div id=result></div>
+<br /><br />
+
+</div>
+
+
+<div id="secondcontainer">
+
+
+<p>Modulate is an ImageMagick command that shifts the hue of a given color by the provided percentage. More info <a target='_blank' href='https://legacy.imagemagick.org/Usage/color_mods/#modulate_hue'>here</a>.</p>
+<p>
+  A = original color, used as a base for the computations<br/>
+  B = new color, as shifted from A by 𝒏 percent
+</p><br /><br />
+
+<div id='wheelContainer'>
+  <div id="colorwheel"></div>
+  <div id="whiteborder"></div>
+  <div id="gridInside" style='transform: rotate(0deg);'>
+    <div class='circleTop'><br/><br/>A</div>
+    <div class='verticalLine'></div>
+    <div class="circTxt" id="test"></div>
+  </div>
+  <div id="targetHue" style='transform: rotate(0deg);'>
+    <div class='circleTop'><br/><br/>B</div>
+    <div class='verticalLine'></div>
+  </div>
+  
+</div>
+
+<div id='bigSpace'></div>
+
+<p>
+It may be easier to understand how modulate's 'hue shifting' works by using a colorwheel.  
+  <ul>
+  <li>The source color is assigned a value of 100%. </li>
+  <li>Its opposite color on the wheel is assigned a value of 0%.</li>
+  <li>The opposite color is also assigned the 200% value.</li>
+  <li>To navigate colors on the left side, start at 0% then move clockwise until you reach 100%.</li>
+  <li>To navigate colors on the right side, start at 100% then move clockwise until you reach 200%.</li>
+</ul>
+
+</p>
+</div>
+
+
+
+<script src="script.js"></script>
+
+</body></html>
