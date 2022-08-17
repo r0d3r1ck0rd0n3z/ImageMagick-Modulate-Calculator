@@ -1,4 +1,10 @@
-<p>Modulate is an ImageMagick command that shifts the hue of a given color by the provided percentage. More info <a target='_blank' href='https://legacy.imagemagick.org/Usage/color_mods/#modulate_hue'>here</a>.</p>
+# ImageMagick Modulate Calculator
+
+This 'web app' outputs the resulting hue when a modulate command is applied to a source color.  
+
+
+Modulate is an ImageMagick command that shifts the hue of a given color by the provided percentage. More info <a target='_blank' href='https://legacy.imagemagick.org/Usage/color_mods/#modulate_hue'>here</a>.
+
 <p>
   A = original color, used as a base for the computations<br/>
   B = new color, as shifted from A by 𝒏 percent
