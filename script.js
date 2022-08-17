@@ -227,7 +227,7 @@ function circularText(txt, radius, classIndex) {
   });
 }
 
-circularText("00 010 020 030 040 050 060 070 080 090 100 110 120 130 140 150 160 170 180 190 ", 90, 0);
+circularText("20 010 020 030 040 050 060 070 080 090 100 110 120 130 140 150 160 170 180 190 ", 90, 0);
 
 function setRotationOfColorWheel( a, b ) {
   document.getElementById("gridInside").style.transform = "rotate(" + a +"deg)";
