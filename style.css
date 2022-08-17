@@ -1,5 +1,4 @@
 body {
-  padding: 10px;
   position: relative;
 }
 
@@ -31,7 +30,7 @@ input {
 }
 
 #wheelContainer {
-  position: relative;
+  position: absolute;
 }
 
 #colorwheel {
@@ -80,7 +79,7 @@ input {
 }
 
 #bigSpace {
-  height: 250px;
+  height: 200px;
   width: 30px;
   border: none;
 }
@@ -92,10 +91,11 @@ input {
 
 div.circTxt {
   display: inline-block;
-  font-size: 7px;
+  font-size: 10px;
   position: absolute;
-  top: -2px;
+  top: -5px;
   left: 95px;
+  font-family: MS Sans Serif, sans-serif;
 }
 
 #whiteborder {
@@ -105,4 +105,19 @@ div.circTxt {
     top: 6px;
     width: 150px;
     height: 150px;
+}
+
+#firstcontainer {
+  float: left;
+  width: 450px;
+  padding-left: 25px;
+  font-family: segoe ui, sans-serif;
+}
+
+#secondcontainer {
+  display: inline-block;
+  width: 450px;
+  border-left: dashed 1px #ddd;
+  padding-left: 25px;
+  font-family: segoe ui, sans-serif;
 }
