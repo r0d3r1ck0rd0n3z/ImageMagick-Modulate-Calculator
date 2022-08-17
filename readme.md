@@ -2,10 +2,12 @@
 
 This demo calculates the resulting hue when a modulate command is applied to a source color. 
 
+<br/>
   
 🌎 You can view a demo here: <br/>
 https://r0d3r1ck0rd0n3z.github.io/ImageMagick-Modulate-Calculator/
 
+<br/>
 
 <p>Modulate is an ImageMagick command that shifts the hue of a given color by the provided percentage. More info <a target='_blank' href='https://legacy.imagemagick.org/Usage/color_mods/#modulate_hue'>here</a>. To understand how 'hue shift' works, imagine a colorwheel where:</p>
 <p>
@@ -20,8 +22,9 @@ ImageMagick takes the base color and assigns it a value of 100%. It then works o
   <li>Starting from 0% moving clockwise, it adds 1% for each color until it reaches 100%.</li>
   <li>Starting from 100% moving clockwise, it adds 1% for each color until it reaches 200%.</li>
 </ul>
-
 </p>
+
+<br/>
 
 ## Current issues
 
