@@ -1,6 +1,10 @@
 # ImageMagick Modulate Calculator
 
-This 'web app' outputs the resulting hue when a modulate command is applied to a source color.  
+This 'web app' outputs the resulting hue when a modulate command is applied to a source color. You can view a demo here:  
+
+
+* 🌎 https://r0d3r1ck0rd0n3z.github.io/ImageMagick-Modulate-Calculator/
+
 
 
 Modulate is an ImageMagick command that shifts the hue of a given color by the provided percentage. More info <a target='_blank' href='https://legacy.imagemagick.org/Usage/color_mods/#modulate_hue'>here</a>.
