@@ -6,8 +6,9 @@ This 'web app' outputs the resulting hue when a modulate command is applied to a
 * 🌎 https://r0d3r1ck0rd0n3z.github.io/ImageMagick-Modulate-Calculator/
 
 
-
+<p>
 Modulate is an ImageMagick command that shifts the hue of a given color by the provided percentage. More info <a target='_blank' href='https://legacy.imagemagick.org/Usage/color_mods/#modulate_hue'>here</a>.
+</p>
 
 <p>
   A = original color, used as a base for the computations<br/>
