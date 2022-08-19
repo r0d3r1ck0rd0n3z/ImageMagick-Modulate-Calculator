@@ -10,7 +10,7 @@ https://r0d3r1ck0rd0n3z.github.io/ImageMagick-Modulate-Calculator/
 <br/>
 
 <p>
-Modulate is an ImageMagick command that can shift the hue of a given color by the provided percentage. Note that while modulate can also change the brightness and saturation of target images, this demo focuses on hue only. <a target='_blank' href='https://legacy.imagemagick.org/Usage/color_mods/#modulate_hue' title='Hue Modulation'>More info here</a>. 
+Modulate is an ImageMagick command that can shift the hue of a given color by the provided percentage. Note that while modulate can also change the brightness and saturation of target images, this demo <i>focuses on <b>hue</b> only</i>. <a target='_blank' href='https://legacy.imagemagick.org/Usage/color_mods/#modulate_hue' title='Hue Modulation'>More info here</a>. 
 
 
 To understand how this 'hue shift' works, imagine a colorwheel where:</p>
