@@ -23,11 +23,11 @@ To understand how this 'hue shift' works, imagine a colorwheel where:</p>
 ![colorwheel](colorwheel-example.png)
 
 <p>
-ImageMagick takes the base color and assigns it a value of 100%. It then works out the % values of the other colors :  
+ImageMagick takes the base color and assigns it a value of 100%. It then assigns % values to the other colors using the following method:  
   <ul>
   <li>The opposite color on the wheel is assigned 0%.</li>
   <li>Starting from this 0% value, it moves clockwise along the colorwheel perimeter adding 1% for each color until it reaches 200%.</li>
-  <li>By this point, it has already circled back to 0%. Logically, this means that colors bearing the 0% and 200% values are the same.</li>
+  <li>By this point, it has already circled back to the 0% marker. Colors bearing the 0% and 200% values will always refer to the same hue.</li>
 </ul>
 
 <p>
