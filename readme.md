@@ -4,7 +4,7 @@ This demo calculates the resulting hue when a modulate command is applied to a s
 
 <br/>
   
-🌎 You can view a demo here: <br/>
+🌎 You can view the live version here: <br/>
 https://r0d3r1ck0rd0n3z.github.io/ImageMagick-Modulate-Calculator/
 
 <br/>
